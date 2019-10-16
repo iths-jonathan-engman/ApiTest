@@ -1,0 +1,22 @@
+.prototype {
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+    /* list-style-type: none; */
+}
+
+.para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+
+.height {
+    text-align: right;
+    
+}
+
+p:hover {
+    display: block;
+}
