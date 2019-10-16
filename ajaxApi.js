@@ -6,9 +6,6 @@ async function getData() {
     console.log(responseBody)
     
     return responseBody.results
-
-    // let wrapper = document.querySelector(".wrapper")
-    // wrapper.innerText = responseBody.results[0].email
 }
 
 async function render() {
@@ -29,12 +26,7 @@ async function render() {
         newItem.addEventListener("click", function() {
             let p1 = newItem.querySelector(".height")
             p1.innerText = item.height
-            
         })
-        
-        
-        // let world = newItem.querySelector("p.href")
-        // world.innerText = item.
         
         let p = newItem.querySelector(".name")
         p.innerText = item.name

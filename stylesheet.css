@@ -1,8 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
 .prototype {
     display: flex;
     flex-direction: row;
     visibility: hidden;
-    /* list-style-type: none; */
 }
 
 .para {
@@ -15,6 +31,11 @@
 .height {
     text-align: right;
     
+}
+
+p {
+    color: yellow;
+    font-weight: bold;
 }
 
 p:hover {
